@@ -9,7 +9,7 @@
 
 body {
 	font-family: "Product Sans1", sans-serif;
-	background: url("img/Plakat.png");
+	background: #1c1c1c;
 	color: white;
 	font-size: 20px;
 }
@@ -48,8 +48,8 @@ input {
 
 .piekarylogo > img {
 	position: fixed;
-	height: 400px;
-	width: 400px;
+	height: 600px;
+	width: 600px;
 	z-index: -1;
 	left: 50%;
 	transform: translate(-50%, -50%);
