@@ -9,7 +9,7 @@
 
 body {
 	font-family: "Product Sans1", sans-serif;
-	background: #1c1c1c;
+	background: url("img/Plakat.png");
 	color: white;
 	font-size: 20px;
 }
@@ -24,13 +24,13 @@ a:visited {
 }
 
 h1.hello {
-	margin-top: 270px;
+	margin-top: 250px;
 }
 
 h1.hello,
 h1.timing {
 	margin-bottom: 85px;
-	font-size: 3.2rem;
+	font-size: 4rem;
 }
 
 input {
@@ -48,18 +48,19 @@ input {
 
 .piekarylogo > img {
 	position: fixed;
-	height: 600px;
-	width: 600px;
+	height: 400px;
+	width: 400px;
 	z-index: -1;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -90%);
 }
 
 .icons img {
 	position: relative;
-	height: 20px;
+	height: 60px;
 	width: auto;
 	top: -2px;
+	margin-top: 20px;
 }
 .icons a:not(:last-of-type) {
 	margin-right: 20px;
@@ -87,10 +88,10 @@ a {
 	border-bottom: 1px solid transparent;
 }
 
-a:hover {
+/* a:hover {
 	border-bottom: 1px solid white;
 	transition: all 0.3s ease !important;
-}
+} */
 
 canvas {
 	/*display: none;*/
